@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=16 format=3 uid="uid://ckgec2nnrgh1k"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_j0aj1"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_niyht"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_jly2h"]
+
+[sub_resource type="Resource" id="Resource_niyht"]
+script = ExtResource("1_j0aj1")
+acte = 8
+texte_choix = "FEU10"
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_jly2h"]
+script = ExtResource("1_j0aj1")
+acte = 16
+texte_choix = "FEU11"
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_j0aj1"]
+script = ExtResource("2_niyht")
+perso = 3
+bruitage = true
+replique = "FEU00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_0pcgq"]
+script = ExtResource("2_niyht")
+perso = 2
+replique = "FEU01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_g1338"]
+script = ExtResource("2_niyht")
+perso = 3
+replique = "FEU02"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_2qqfu"]
+script = ExtResource("2_niyht")
+perso = 3
+replique = "FEU03"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_67mkg"]
+script = ExtResource("2_niyht")
+perso = 3
+replique = "FEU04"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_fqb06"]
+script = ExtResource("2_niyht")
+perso = 3
+replique = "FEU05"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_uhgaw"]
+script = ExtResource("2_niyht")
+perso = 3
+replique = "FEU06"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_0hnv4"]
+script = ExtResource("2_niyht")
+perso = 3
+replique = "FEU07"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_fs7q5"]
+script = ExtResource("2_niyht")
+perso = 6
+bruitage = true
+replique = "FEU08"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_oblup"]
+script = ExtResource("2_niyht")
+perso = 5
+nombre = 11
+bruitage = true
+replique = "FEU09"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_jly2h")
+lignes = Array[ExtResource("2_niyht")]([SubResource("Resource_j0aj1"), SubResource("Resource_0pcgq"), SubResource("Resource_g1338"), SubResource("Resource_2qqfu"), SubResource("Resource_67mkg"), SubResource("Resource_fqb06"), SubResource("Resource_uhgaw"), SubResource("Resource_0hnv4"), SubResource("Resource_fs7q5"), SubResource("Resource_oblup")])
+choix = Array[ExtResource("1_j0aj1")]([SubResource("Resource_niyht"), SubResource("Resource_jly2h")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"

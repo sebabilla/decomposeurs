@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=7 format=3 uid="uid://dupjosmroxxt5"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_vr1ev"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_0sc38"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_j6a7x"]
+
+[sub_resource type="Resource" id="Resource_0sc38"]
+script = ExtResource("1_vr1ev")
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_vr1ev"]
+script = ExtResource("2_0sc38")
+perso = 10
+bruitage = true
+replique = "REPLAY00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_j6a7x"]
+script = ExtResource("2_0sc38")
+perso = 10
+replique = "REPLAY01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_j6a7x")
+lignes = Array[ExtResource("2_0sc38")]([SubResource("Resource_vr1ev"), SubResource("Resource_j6a7x")])
+choix = Array[ExtResource("1_vr1ev")]([SubResource("Resource_0sc38")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"

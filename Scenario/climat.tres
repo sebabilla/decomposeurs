@@ -1,0 +1,154 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=27 format=3 uid="uid://q64fi0ol4xmy"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_8ldld"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_5wygh"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_j4bi5"]
+
+[sub_resource type="Resource" id="Resource_8ldld"]
+script = ExtResource("1_8ldld")
+acte = 128
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_5wygh"]
+script = ExtResource("2_5wygh")
+perso = 3
+bruitage = true
+replique = "CLIMAT00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_j4bi5"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_gpjr4"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT02"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_gehcm"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT03"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_n5ehx"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT04"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_livng"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT05"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_ukjtb"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT06"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_ifue5"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT07"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_coekl"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT08"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_ta5mh"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT09"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_1xisu"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT10"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_58mph"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT11"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_yh8lg"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT12"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_763ed"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT13"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_gps0w"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT14"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_kublx"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT15"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_xhiyo"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT16"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_0uh71"]
+script = ExtResource("2_5wygh")
+perso = 3
+replique = "CLIMAT17"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_6w1j0"]
+script = ExtResource("2_5wygh")
+perso = 5
+nombre = 13
+bruitage = true
+replique = "CLIMAT18"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_ud1f1"]
+script = ExtResource("2_5wygh")
+perso = 6
+bruitage = true
+replique = "CLIMAT19"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_28wls"]
+script = ExtResource("2_5wygh")
+perso = 5
+nombre = 11
+replique = "CLIMAT20"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_wh8t4"]
+script = ExtResource("2_5wygh")
+perso = 2
+bruitage = true
+replique = "CLIMAT21"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_j4bi5")
+lignes = Array[ExtResource("2_5wygh")]([SubResource("Resource_5wygh"), SubResource("Resource_j4bi5"), SubResource("Resource_gpjr4"), SubResource("Resource_gehcm"), SubResource("Resource_n5ehx"), SubResource("Resource_livng"), SubResource("Resource_ukjtb"), SubResource("Resource_ifue5"), SubResource("Resource_coekl"), SubResource("Resource_ta5mh"), SubResource("Resource_1xisu"), SubResource("Resource_58mph"), SubResource("Resource_yh8lg"), SubResource("Resource_763ed"), SubResource("Resource_gps0w"), SubResource("Resource_kublx"), SubResource("Resource_xhiyo"), SubResource("Resource_0uh71"), SubResource("Resource_6w1j0"), SubResource("Resource_ud1f1"), SubResource("Resource_28wls"), SubResource("Resource_wh8t4")])
+choix = Array[ExtResource("1_8ldld")]([SubResource("Resource_8ldld")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"

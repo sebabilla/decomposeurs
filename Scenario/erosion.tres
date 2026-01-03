@@ -1,0 +1,69 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=13 format=3 uid="uid://dyukrcme7vlsq"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_wkaii"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_uiyod"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_0nxvy"]
+
+[sub_resource type="Resource" id="Resource_wkaii"]
+script = ExtResource("1_wkaii")
+acte = 2048
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_uiyod"]
+script = ExtResource("2_uiyod")
+perso = 4
+bruitage = true
+replique = "EROSION00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_0nxvy"]
+script = ExtResource("2_uiyod")
+perso = 4
+replique = "EROSION01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_0060g"]
+script = ExtResource("2_uiyod")
+perso = 4
+replique = "EROSION02"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_5oyow"]
+script = ExtResource("2_uiyod")
+perso = 4
+replique = "EROSION03"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_5dnnc"]
+script = ExtResource("2_uiyod")
+perso = 4
+nombre = 9
+replique = "EROSION04"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_i1dll"]
+script = ExtResource("2_uiyod")
+perso = 4
+replique = "EROSION05"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_0jbav"]
+script = ExtResource("2_uiyod")
+perso = 5
+nombre = 13
+bruitage = true
+replique = "EROSION06"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_e0etw"]
+script = ExtResource("2_uiyod")
+perso = 5
+nombre = 15
+replique = "EROSION07"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_0nxvy")
+lignes = Array[ExtResource("2_uiyod")]([SubResource("Resource_uiyod"), SubResource("Resource_0nxvy"), SubResource("Resource_0060g"), SubResource("Resource_5oyow"), SubResource("Resource_5dnnc"), SubResource("Resource_i1dll"), SubResource("Resource_0jbav"), SubResource("Resource_e0etw")])
+choix = Array[ExtResource("1_wkaii")]([SubResource("Resource_wkaii")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"

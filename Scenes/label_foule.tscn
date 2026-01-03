@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1sqwe5js46cr"]
+
+[ext_resource type="Script" uid="uid://bbg4j8jloo3b7" path="res://Scenes/label_foule.gd" id="1_2enw7"]
+
+[node name="LabelFoule" type="MarginContainer"]
+custom_minimum_size = Vector2(100, 20)
+offset_right = 140.0
+offset_bottom = 150.0
+size_flags_horizontal = 3
+script = ExtResource("1_2enw7")
+
+[node name="Foule" type="Label" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(30, 10)
+layout_mode = 2
+size_flags_vertical = 0
+theme_type_variation = &"LabelFoule"
+horizontal_alignment = 1
+autowrap_mode = 2

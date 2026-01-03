@@ -1,0 +1,129 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=22 format=3 uid="uid://db6b4u04hxyba"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_d7w8d"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_cnsp1"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_ooebr"]
+
+[sub_resource type="Resource" id="Resource_d7w8d"]
+script = ExtResource("1_d7w8d")
+acte = 16384
+texte_choix = "FOURMI16"
+action = 32
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_cnsp1"]
+script = ExtResource("1_d7w8d")
+acte = 16384
+texte_choix = "FOURMI17"
+action = 64
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_ooebr"]
+script = ExtResource("2_cnsp1")
+perso = 2
+replique = "FOURMI00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_bvlei"]
+script = ExtResource("2_cnsp1")
+perso = 9
+bruitage = true
+replique = "FOURMI01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_35ll4"]
+script = ExtResource("2_cnsp1")
+perso = 9
+replique = "FOURMI02"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_74xxl"]
+script = ExtResource("2_cnsp1")
+perso = 9
+replique = "FOURMI03"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_v86uu"]
+script = ExtResource("2_cnsp1")
+perso = 9
+replique = "FOURMI04"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_6tkdf"]
+script = ExtResource("2_cnsp1")
+perso = 9
+replique = "FOURMI05"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_yocbb"]
+script = ExtResource("2_cnsp1")
+perso = 9
+replique = "FOURMI06"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_pyi06"]
+script = ExtResource("2_cnsp1")
+perso = 9
+replique = "FOURMI07"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_h25fx"]
+script = ExtResource("2_cnsp1")
+perso = 9
+replique = "FOURMI08"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_c78wh"]
+script = ExtResource("2_cnsp1")
+perso = 9
+replique = "FOURMI09"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_1ters"]
+script = ExtResource("2_cnsp1")
+perso = 5
+nombre = 5
+bruitage = true
+replique = "FOURMI10"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_4xyek"]
+script = ExtResource("2_cnsp1")
+perso = 9
+bruitage = true
+replique = "FOURMI11"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_7ebo5"]
+script = ExtResource("2_cnsp1")
+perso = 9
+replique = "FOURMI12"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_tm62w"]
+script = ExtResource("2_cnsp1")
+perso = 5
+nombre = 5
+bruitage = true
+replique = "FOURMI13"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_im321"]
+script = ExtResource("2_cnsp1")
+perso = 9
+bruitage = true
+replique = "FOURMI14"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_80ke2"]
+script = ExtResource("2_cnsp1")
+perso = 2
+bruitage = true
+replique = "FOURMI15"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_ooebr")
+lignes = Array[ExtResource("2_cnsp1")]([SubResource("Resource_ooebr"), SubResource("Resource_bvlei"), SubResource("Resource_35ll4"), SubResource("Resource_74xxl"), SubResource("Resource_v86uu"), SubResource("Resource_6tkdf"), SubResource("Resource_yocbb"), SubResource("Resource_pyi06"), SubResource("Resource_h25fx"), SubResource("Resource_c78wh"), SubResource("Resource_1ters"), SubResource("Resource_4xyek"), SubResource("Resource_7ebo5"), SubResource("Resource_tm62w"), SubResource("Resource_im321"), SubResource("Resource_80ke2")])
+choix = Array[ExtResource("1_d7w8d")]([SubResource("Resource_d7w8d"), SubResource("Resource_cnsp1")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"

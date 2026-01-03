@@ -1,0 +1,82 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=15 format=3 uid="uid://gsyldk5525uk"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_pm63v"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_r8eip"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_tvlyi"]
+
+[sub_resource type="Resource" id="Resource_pm63v"]
+script = ExtResource("1_pm63v")
+acte = 16
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_r8eip"]
+script = ExtResource("2_r8eip")
+perso = 3
+bruitage = true
+replique = "AGRICULTURE00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_tvlyi"]
+script = ExtResource("2_r8eip")
+perso = 3
+replique = "AGRICULTURE01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_ynfx6"]
+script = ExtResource("2_r8eip")
+perso = 3
+replique = "AGRICULTURE02"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_mjh58"]
+script = ExtResource("2_r8eip")
+perso = 3
+replique = "AGRICULTURE03"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_p6jlp"]
+script = ExtResource("2_r8eip")
+perso = 3
+replique = "AGRICULTURE04"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_t0j3o"]
+script = ExtResource("2_r8eip")
+perso = 3
+replique = "AGRICULTURE05"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_ehncp"]
+script = ExtResource("2_r8eip")
+perso = 5
+nombre = 7
+bruitage = true
+replique = "AGRICULTURE06"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_7wurx"]
+script = ExtResource("2_r8eip")
+perso = 6
+bruitage = true
+replique = "AGRICULTURE07"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_d14sx"]
+script = ExtResource("2_r8eip")
+perso = 5
+nombre = 13
+replique = "AGRICULTURE08"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_ircsi"]
+script = ExtResource("2_r8eip")
+perso = 3
+nombre = 11
+replique = "AGRICULTURE09"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_tvlyi")
+lignes = Array[ExtResource("2_r8eip")]([SubResource("Resource_r8eip"), SubResource("Resource_tvlyi"), SubResource("Resource_ynfx6"), SubResource("Resource_mjh58"), SubResource("Resource_p6jlp"), SubResource("Resource_t0j3o"), SubResource("Resource_ehncp"), SubResource("Resource_7wurx"), SubResource("Resource_d14sx"), SubResource("Resource_ircsi")])
+choix = Array[ExtResource("1_pm63v")]([SubResource("Resource_pm63v")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"

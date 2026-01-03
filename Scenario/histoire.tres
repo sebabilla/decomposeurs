@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=9 format=3 uid="uid://bywrbj2dijy27"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_doahh"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_jiuaf"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_pcmng"]
+
+[sub_resource type="Resource" id="Resource_doahh"]
+script = ExtResource("1_doahh")
+acte = 16
+texte_choix = "HISTOIRE03"
+conditions = Array[int]([512, 1024, 2048, 4096])
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_jiuaf"]
+script = ExtResource("1_doahh")
+acte = 4
+texte_choix = "HISTOIRE04"
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_mhbex"]
+script = ExtResource("2_jiuaf")
+perso = 2
+replique = "HISTOIRE00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_pcmng"]
+script = ExtResource("2_jiuaf")
+perso = 5
+nombre = 5
+bruitage = true
+replique = "HISTOIRE01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_p2tkp"]
+script = ExtResource("2_jiuaf")
+perso = 2
+bruitage = true
+replique = "HISTOIRE02"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_pcmng")
+lignes = Array[ExtResource("2_jiuaf")]([SubResource("Resource_mhbex"), SubResource("Resource_pcmng"), SubResource("Resource_p2tkp")])
+choix = Array[ExtResource("1_doahh")]([SubResource("Resource_doahh"), SubResource("Resource_jiuaf")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"

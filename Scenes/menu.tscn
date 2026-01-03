@@ -1,0 +1,158 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnwymvav1bjay"]
+
+[ext_resource type="Script" uid="uid://bgj05mvrn4c4r" path="res://Scenes/menu.gd" id="1_1rerr"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1rerr")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+[node name="Titre" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.4
+theme_override_colors/font_color = Color(0.99215686, 0.9372549, 0.9490196, 1)
+theme_override_font_sizes/font_size = 44
+text = "TITRE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.6
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+
+[node name="Langue" type="Button" parent="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(140, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../../VBoxContainer2/Continuer")
+focus_neighbor_right = NodePath("../../VBoxContainer2/Continuer")
+focus_neighbor_bottom = NodePath("../Musique")
+theme_type_variation = &"BoutonReglage"
+text = "LANGUE"
+
+[node name="Musique" type="Button" parent="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(140, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Langue")
+focus_neighbor_right = NodePath("../../VBoxContainer2/Continuer")
+focus_neighbor_bottom = NodePath("../Bruitages")
+theme_type_variation = &"BoutonReglage"
+text = "COUPER_M"
+
+[node name="Bruitages" type="Button" parent="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(140, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../Musique")
+focus_neighbor_right = NodePath("../../VBoxContainer2/Continuer")
+focus_neighbor_bottom = NodePath("../Langue")
+theme_type_variation = &"BoutonReglage"
+text = "COUPER_B"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer/HBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+
+[node name="Nouveau" type="Button" parent="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../VBoxContainer/Langue")
+focus_neighbor_top = NodePath("../Continuer")
+focus_neighbor_right = NodePath("../../VBoxContainer3/Credits")
+focus_neighbor_bottom = NodePath("../Continuer")
+theme_type_variation = &"GrosBoutonsMenu"
+text = "NOUVEAU"
+
+[node name="Continuer" type="Button" parent="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../VBoxContainer/Langue")
+focus_neighbor_top = NodePath("../Nouveau")
+focus_neighbor_right = NodePath("../../VBoxContainer3/Credits")
+focus_neighbor_bottom = NodePath("../Nouveau")
+theme_type_variation = &"GrosBoutonsMenu"
+text = "CONTINUER"
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="VBoxContainer/HBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+theme_override_constants/separation = 0
+
+[node name="Details" type="Label" parent="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer3"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.99215686, 0.9372549, 0.9490196, 1)
+text = "Scénario,  dessins: Seb46 (CC by-NC)
+Code: Seb46 (MIT)
+Jam Velox Turbo 3, thème: The world
+  is ending but I still have a job
+Musique: Gnossiennes n°3, 1893, Eric
+  Satie, mutopiaproject.org (CC SA)
+Bruitages: découpés dans les sons de
+  lasonotheque.org (CC0)
+Police : Comfortaa
+Outils: Godot 4.5, Audacity, Krita, The
+  Gimp, LibreOffice
+Aide à la traduction: deepl.com"
+autowrap_mode = 2
+
+[node name="Credits" type="Button" parent="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer3"]
+custom_minimum_size = Vector2(140, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+focus_neighbor_left = NodePath("../../VBoxContainer2/Continuer")
+focus_neighbor_top = NodePath("../../VBoxContainer2/Continuer")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+theme_type_variation = &"BoutonReglage"
+text = "CREDITS"
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer/Langue" to="." method="_on_langue_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer/Musique" to="." method="_on_musique_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer/Bruitages" to="." method="_on_bruitages_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer2/Nouveau" to="." method="_on_nouveau_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer2/Continuer" to="." method="_on_continuer_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/HBoxContainer/VBoxContainer3/Credits" to="." method="_on_credits_pressed"]

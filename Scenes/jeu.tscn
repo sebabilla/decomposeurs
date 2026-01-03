@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=3 uid="uid://b1q4ynuuld8pt"]
+
+[ext_resource type="Script" uid="uid://jonw2fiqd4vi" path="res://Scenes/jeu.gd" id="1_d1ciy"]
+[ext_resource type="PackedScene" uid="uid://0kkwyy4yuq1s" path="res://Scenes/assemblee.tscn" id="2_0ias4"]
+[ext_resource type="PackedScene" uid="uid://ddpdqjb88xjn5" path="res://Scenes/serveur_son.tscn" id="3_3fugv"]
+[ext_resource type="PackedScene" uid="uid://cnwymvav1bjay" path="res://Scenes/menu.tscn" id="4_0thx2"]
+[ext_resource type="Script" uid="uid://dm8hfvvc04t7t" path="res://Scenes/transition.gd" id="4_hjv83"]
+
+[node name="Jeu" type="Node"]
+script = ExtResource("1_d1ciy")
+
+[node name="ServeurSon" parent="." instance=ExtResource("3_3fugv")]
+unique_name_in_owner = true
+process_mode = 3
+
+[node name="Assemblee" parent="." instance=ExtResource("2_0ias4")]
+unique_name_in_owner = true
+
+[node name="Transition" type="ColorRect" parent="."]
+unique_name_in_owner = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("4_hjv83")
+
+[node name="Menu" parent="." instance=ExtResource("4_0thx2")]
+unique_name_in_owner = true
+process_mode = 2
+visible = false
+
+[connection signal="nouvel_acte" from="Assemblee" to="." method="acte_suivant"]

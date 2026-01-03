@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=12 format=3 uid="uid://baf5g8iy2l6ph"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_hxpr3"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_i72bc"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_7imww"]
+
+[sub_resource type="Resource" id="Resource_hxpr3"]
+script = ExtResource("1_hxpr3")
+acte = 256
+texte_choix = "CONCLU_HIST06"
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_i72bc"]
+script = ExtResource("1_hxpr3")
+acte = 16384
+texte_choix = "CONCLU_HIST07"
+conditions = Array[int]([256])
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_7imww"]
+script = ExtResource("2_i72bc")
+perso = 3
+bruitage = true
+replique = "CONCLU_HIST00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_dnb6i"]
+script = ExtResource("2_i72bc")
+perso = 3
+replique = "CONCLU_HIST01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_bybhm"]
+script = ExtResource("2_i72bc")
+perso = 3
+replique = "CONCLU_HIST02"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_it6xe"]
+script = ExtResource("2_i72bc")
+perso = 5
+nombre = 15
+bruitage = true
+replique = "CONCLU_HIST03"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_1xvb2"]
+script = ExtResource("2_i72bc")
+perso = 5
+nombre = 7
+replique = "CONCLU_HIST04"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_cjspn"]
+script = ExtResource("2_i72bc")
+perso = 2
+bruitage = true
+replique = "CONCLU_HIST05"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_7imww")
+lignes = Array[ExtResource("2_i72bc")]([SubResource("Resource_7imww"), SubResource("Resource_dnb6i"), SubResource("Resource_bybhm"), SubResource("Resource_it6xe"), SubResource("Resource_1xvb2"), SubResource("Resource_cjspn")])
+choix = Array[ExtResource("1_hxpr3")]([SubResource("Resource_hxpr3"), SubResource("Resource_i72bc")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"

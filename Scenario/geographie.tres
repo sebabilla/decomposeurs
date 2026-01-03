@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=9 format=3 uid="uid://ddmwu87whb6f3"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_fpejh"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_ycdxo"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_871kv"]
+
+[sub_resource type="Resource" id="Resource_fpejh"]
+script = ExtResource("1_fpejh")
+acte = 2048
+texte_choix = "GEOGRAPHIE03"
+conditions = Array[int]([8, 16, 32, 64])
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_ycdxo"]
+script = ExtResource("1_fpejh")
+acte = 512
+texte_choix = "GEOGRAPHIE04"
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_l1yqx"]
+script = ExtResource("2_ycdxo")
+perso = 2
+replique = "GEOGRAPHIE00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_871kv"]
+script = ExtResource("2_ycdxo")
+perso = 5
+nombre = 5
+bruitage = true
+replique = "GEOGRAPHIE01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_wjow7"]
+script = ExtResource("2_ycdxo")
+perso = 2
+bruitage = true
+replique = "GEOGRAPHIE02"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_871kv")
+lignes = Array[ExtResource("2_ycdxo")]([SubResource("Resource_l1yqx"), SubResource("Resource_871kv"), SubResource("Resource_wjow7")])
+choix = Array[ExtResource("1_fpejh")]([SubResource("Resource_fpejh"), SubResource("Resource_ycdxo")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"

@@ -1,0 +1,77 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=14 format=3 uid="uid://gebpoq2c288q"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_2n5tw"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_b1gtu"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_dgl6f"]
+
+[sub_resource type="Resource" id="Resource_2n5tw"]
+script = ExtResource("1_2n5tw")
+acte = 2
+texte_choix = "CONCLU_GEO08"
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_b1gtu"]
+script = ExtResource("1_2n5tw")
+acte = 16384
+texte_choix = "CONCLU_GEO09"
+conditions = Array[int]([2])
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_8bcf5"]
+script = ExtResource("2_b1gtu")
+perso = 4
+bruitage = true
+replique = "CONCLU_GEO00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_xner7"]
+script = ExtResource("2_b1gtu")
+perso = 4
+replique = "CONCLU_GEO01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_8qyh8"]
+script = ExtResource("2_b1gtu")
+perso = 4
+replique = "CONCLU_GEO02"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_jnphj"]
+script = ExtResource("2_b1gtu")
+perso = 4
+replique = "CONCLU_GEO03"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_g317d"]
+script = ExtResource("2_b1gtu")
+perso = 4
+replique = "CONCLU_GEO04"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_eqwxe"]
+script = ExtResource("2_b1gtu")
+perso = 5
+nombre = 3
+bruitage = true
+replique = "CONCLU_GEO05"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_s3hf7"]
+script = ExtResource("2_b1gtu")
+perso = 5
+nombre = 5
+replique = "CONCLU_GEO06"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_auht7"]
+script = ExtResource("2_b1gtu")
+perso = 2
+bruitage = true
+replique = "CONCLU_GEO07"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_dgl6f")
+lignes = Array[ExtResource("2_b1gtu")]([SubResource("Resource_8bcf5"), SubResource("Resource_xner7"), SubResource("Resource_8qyh8"), SubResource("Resource_jnphj"), SubResource("Resource_g317d"), SubResource("Resource_eqwxe"), SubResource("Resource_s3hf7"), SubResource("Resource_auht7")])
+choix = Array[ExtResource("1_2n5tw")]([SubResource("Resource_2n5tw"), SubResource("Resource_b1gtu")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"

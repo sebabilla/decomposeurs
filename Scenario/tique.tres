@@ -1,0 +1,152 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=26 format=3 uid="uid://coybpmcwalsqg"]
+
+[ext_resource type="Script" uid="uid://bq4l3teclkd2" path="res://Scenario/choix.gd" id="1_gpoc4"]
+[ext_resource type="Script" uid="uid://cmoxkuufrs6c3" path="res://Scenario/ligne.gd" id="2_bfdjd"]
+[ext_resource type="Script" uid="uid://bfokpgxjy0i2y" path="res://Scenario/dialogue.gd" id="3_dn5gl"]
+
+[sub_resource type="Resource" id="Resource_gpoc4"]
+script = ExtResource("1_gpoc4")
+acte = 16384
+texte_choix = "TIQUE20"
+action = 2
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_bfdjd"]
+script = ExtResource("1_gpoc4")
+acte = 16384
+texte_choix = "TIQUE21"
+action = 4
+metadata/_custom_type_script = "uid://bq4l3teclkd2"
+
+[sub_resource type="Resource" id="Resource_dn5gl"]
+script = ExtResource("2_bfdjd")
+perso = 2
+bruitage = true
+replique = "TIQUE00"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_h35sr"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE01"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_tr20c"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE02"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_i5ywu"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE03"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_b78ve"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE04"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_l1ul0"]
+script = ExtResource("2_bfdjd")
+perso = 7
+bruitage = true
+replique = "TIQUE05"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_05lsn"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE06"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_y8343"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE07"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_me3xa"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE08"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_n875v"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE09"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_l1k86"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE10"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_qorcs"]
+script = ExtResource("2_bfdjd")
+perso = 7
+bruitage = true
+replique = "TIQUE11"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_sthtq"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE12"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_i072w"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE13"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_805bm"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE14"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_x6msm"]
+script = ExtResource("2_bfdjd")
+perso = 7
+replique = "TIQUE15"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_y0yst"]
+script = ExtResource("2_bfdjd")
+perso = 6
+bruitage = true
+replique = "TIQUE16"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_cydnm"]
+script = ExtResource("2_bfdjd")
+perso = 6
+replique = "TIQUE17"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_dslhd"]
+script = ExtResource("2_bfdjd")
+perso = 5
+nombre = 15
+bruitage = true
+replique = "TIQUE18"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[sub_resource type="Resource" id="Resource_07k18"]
+script = ExtResource("2_bfdjd")
+perso = 2
+bruitage = true
+replique = "TIQUE19"
+metadata/_custom_type_script = "uid://cmoxkuufrs6c3"
+
+[resource]
+script = ExtResource("3_dn5gl")
+lignes = Array[ExtResource("2_bfdjd")]([SubResource("Resource_dn5gl"), SubResource("Resource_h35sr"), SubResource("Resource_tr20c"), SubResource("Resource_i5ywu"), SubResource("Resource_b78ve"), SubResource("Resource_l1ul0"), SubResource("Resource_05lsn"), SubResource("Resource_y8343"), SubResource("Resource_me3xa"), SubResource("Resource_n875v"), SubResource("Resource_l1k86"), SubResource("Resource_qorcs"), SubResource("Resource_sthtq"), SubResource("Resource_i072w"), SubResource("Resource_805bm"), SubResource("Resource_x6msm"), SubResource("Resource_y0yst"), SubResource("Resource_cydnm"), SubResource("Resource_dslhd"), SubResource("Resource_07k18")])
+choix = Array[ExtResource("1_gpoc4")]([SubResource("Resource_gpoc4"), SubResource("Resource_bfdjd")])
+metadata/_custom_type_script = "uid://bfokpgxjy0i2y"
