@@ -3,6 +3,7 @@
 by Sébastien Abilla (Seb46)
 
 code : MIT License
+
 story, animated sprites : CC BY-NC 4.0
 
 #### Play Online:
