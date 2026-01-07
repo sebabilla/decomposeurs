@@ -10,18 +10,18 @@ JOUER_B,Jouer les bruitages ?,Play sound effects?
 COUPER_B,Couper les bruitages ?,Cut sound effect?
 INTRO00,"L’Assemblée des Décomposeurs s’est exprimée, Acarien sera le nouveau modérateur.",The Assembly of Decomposers has spoken: Mite will be the new moderator.
 INTRO01,Mes bien chères espèces. Voilà trois cents cycles solaires que la Grande Extinction que nos ancêtres appelaient de leurs vœux a eu lieu.,"My dear species. Three hundred solar cycles ago, the great extinction that our ancestors eagerly awaited took place."
-INTRO02,"Elle s’est produite un peu trop tard pour beaucoup d’entre nous, mais c’est le résultat qui compte.","It happened a little too late for many of us, but what matters are the results."
-INTRO03,C’est pour commémorer cette extinction que nous nous sommes rassemblés aujourd’hui.,It’s to commemorate this extinction that we have gathered here today.
+INTRO02,"Elle s’est produite un peu trop tard pour beaucoup d’entre nous, mais c’est le résultat qui compte.","It happened a little too late for many of us, but what matters is the outcome."
+INTRO03,C’est pour commémorer cette extinction que nous nous sommes rassemblés aujourd’hui.,We have gathered here today to commemorate this extinction.
 INTRO04,Vous m’avez choisi comme modérateur pour cette session…,You have chosen me as moderator of this session…
 INTRO05,Clap clap !,Clap clap!
 INTRO06,Bravo !,Bravo !
 INTRO07,"Vous m’avez choisi comme modérateur pour cette session sur le thème ‘Achever la Grande Extinction’, et je vous en remercie.","You've chosen me as moderator of this session, which is focusing on the topic of ‘Ending the Great Extinction’, and I must thank you for that."
-INTRO08,Un très bref récapitulatif avant de donner la parole aux intervenants.,Here is a brief summary before handing over to the speakers.
+INTRO08,Un très bref récapitulatif avant de donner la parole aux intervenants.,"Before handing over to the speakers, here is a brief summary."
 INTRO09,"La Grande Extinction a emporté 99 pour cent des humains. Il en reste encore quelques-uns, sur le grand ensemble rouge ou près des terres gelées.","The Great Extinction wiped out 99 percent of humans. A few remain, on the great red landmass or near the frozen lands."
-INTRO10,"Mais, ne désespérons pas. Après tout, et c’est un des objectifs de cette session, notre belle planète sera bientôt débarrassée de ces immondes parasites.","But let’s not despair. After all, as one of the aims of this Assembly, our beautiful planet will soon be rid of these filthy parasites."
+INTRO10,"Mais, ne désespérons pas. Après tout, et c’est un des objectifs de cette session, notre belle planète sera bientôt débarrassée de ces immondes parasites.","But let’s not despair. After all, one of the aims of this assembly is to rid our beautiful planet of these filthy parasites."
 INTRO11,Je vous avais dit que ce serait bref.,"I told you it would be short, didn't I ?"
-INTRO12,"Bien, deux exposés semblaient appropriés pour commencer.","Well, two talks seemed appropriate to start."
-INTRO13,"Lombric souhaite nous faire un récapitulatif historique, Cloporte veut nous dresser un état de la planète.","Earthworm would like to give us a historical overview, while Woodlouse has prepared a state of the planet report."
+INTRO12,"Bien, deux exposés semblaient appropriés pour commencer.","Well, two talks seemed appropriate to start with."
+INTRO13,"Lombric souhaite nous faire un récapitulatif historique, Cloporte veut nous dresser un état de la planète.","Earthworm would like to give us a historical overview, while Woodlouse has prepared a report on the current state of the planet."
 INTRO14,Par quoi commencer ?,Where should we start?
 INTRO15,La leçon d’histoire de Lombric.,Earthworm's history lesson.
 INTRO16,La leçon de géographie de Cloporte.,Woodlouse's geography lesson.
@@ -31,22 +31,22 @@ HISTOIRE01,"Clap, clap.","Clap, clap."
 HISTOIRE02,"Lombric, à vous la parole.","Earthworm, over to you."
 HISTOIRE03,"Mais, l’intervention de Cloporte ayant légèrement débordé, je vous demande de passer les premiers temps humains, et de commencer directement il y a 500 cycles solaires.","However, as Woodlouse's intervention has slightly overrun, could you skip the early human history and start directly 500 solar cycles ago?"
 HISTOIRE04,"Racontez-nous l’histoire des humains depuis les premiers temps. Mais, pensez aux plus sensibles d’entre nous et tâchez de rester factuel.","Tell us the human story from the early days. But, consider the more sensitive among us and try to remain factual."
-FEU00,"Je… Je…, Acarien, que voulez-vous dire par là ? Je…","I... I..., Mite, what do you mean exactly? I..."
+FEU00,"Je… Je…, Acarien, que voulez-vous dire par là ? Je…","I... I..., Mite, what exactly do you mean? I..."
 FEU01,"Lombric, s’il vous plaît. Veuillez commencer.","Earthworm, please begin."
 FEU02,"Hum, bien.","Um, fine."
-FEU03,"Tout a vraiment commencé il y a environ 400 000 cycles solaires, quand des primates ont appris à maîtriser le feu.","All of this started approximately 400,000 solar cycles ago, when a group of primates learned to control fire."
+FEU03,"Tout a vraiment commencé il y a environ 400 000 cycles solaires, quand des primates ont appris à maîtriser le feu.","All of this started approximately 400,000 solar cycles ago, when a group of primates learnt to control fire."
 FEU04,"À vrai dire, notre planète connaissait des épisodes froids, nos ancêtres ne sont pas méfiés. Ils ont laissé cette technique se répandre.","In fact, our planet was experiencing cold snaps, our ancestors weren't wary, they allowed the technique to catch on."
 FEU05,"Et puis, ces primates, ils n’étaient quand même pas très futés : incapables de manger de la viande sans utiliser des cailloux qui coupent, incapables de se communiquer de belles idées sans les dessiner.","Besides, these primates weren't very bright: unable to eat meat without using sharp stones, unable to communicate beautiful ideas without drawing them."
-FEU06,Qui aurait pu prévoir que des êtres aussi frustes feraient tant de mal ?,Could anyone have ever imagined that such simple creatures would cause so much harm?
+FEU06,Qui aurait pu prévoir que des êtres aussi frustes feraient tant de mal ?,Could anyone ever have imagined that such simple creatures would cause so much harm?
 FEU07,"Qui ? Les douves ? Non, les douves, elles …","Who? The flukes? No, the flukes, they…"
-FEU08,"Et voilà, parce que nous ne vivons pas dans le sol, nous sommes discriminés.","Typical, because we don’t live in the soil, we’re discriminated against."
+FEU08,"Et voilà, parce que nous ne vivons pas dans le sol, nous sommes discriminés.","Typical, just because we don’t live in the soil, we’re discriminated against."
 FEU09,Nous décomposons aussi !,We decompose too!
 FEU10,"Allez Lombric, vous nous racontez tout, mais sans digression, s’il vous plaît ?","Come on, Earthworm, give us the full story, but without digressing, please?"
 FEU11,"Vous vous dispersez trop, venez-en directement au nœud du problème, Lombric.","You're rambling too much, get straight to the point, Earthworm."
 AGRICULTURE00,"Hum, bien.","Um, fine."
 AGRICULTURE01,"Donc, pendant les centaines de milliers de cycles solaires suivants, ces primates du genre humain, n’ont pas fait grand-chose d’intéressant.","So, during the next hundreds of thousands of solar cycles, these primates of the human genus did not do much of interest."
 AGRICULTURE02,"Mais, en étaient-ils seulement capables ?",But were they even able to do anything?
-AGRICULTURE03,"Et puis, il y a environ 10 000 cycles solaires, ils se sont mis à travailler le sol.","And then, about 10,000 solar cycles ago, they began to work the soil."
+AGRICULTURE03,"Et puis, il y a environ 10 000 cycles solaires, ils se sont mis à travailler le sol.","And then, about 10,000 solar cycles ago, they started working the soil."
 AGRICULTURE04,"Ils l’ont aéré, ont introduit de nouvelles plantes. Notre régime alimentaire a pu se diversifier.",They aerated it and introduced new plants. Our diet became more diversified.
 AGRICULTURE05,"À vrai dire dans la mémoire collective des lombrics, cette époque est restée comme une période faste, et…","To tell the truth, in the collective memory of earthworms, this time has been remembered as a golden age, and..."
 AGRICULTURE06,Complaisance !,Indulgence!
@@ -54,9 +54,9 @@ AGRICULTURE07,"Complaisance, pas de pitié pour les humains !","Indulgence, no 
 AGRICULTURE08,Pas de pitié !,No mercy !
 AGRICULTURE09,"Non, non, n’y voyez qu’un acompte factuel de la pensée de l’époque. Ne l’interprétez pas à la lumière des connaissances actuelles !","No, no, consider it only a factual account of contemporary thinking. Don't interpret it through the lens of modern knowledge."
 PETROLE00,"Bien, le stade suivant des humains a été bien plus terrible.","Um, fine, the next stage of humans was so much worse."
-PETROLE01,"Il y a environ 500 cycles solaires, ils se sont affranchis de toutes les règles ancestrales de notre planète.","About 500 solar cycles ago, they threw off all the ancestral rules of our planet."
+PETROLE01,"Il y a environ 500 cycles solaires, ils se sont affranchis de toutes les règles ancestrales de notre planète.","Around 500 solar cycles ago, they threw off all the ancestral rules of our planet."
 PETROLE02,Ils ont modifié l’air et le sol grâce aux roches noires.,They altered the air and the soil with the black rocks.
-PETROLE03,"Et puis, il y a eu le Grand Génocide. Les lombrics des champs décimés par la stérilisation des sols et …",And then there was the Great Genocide. Field worms decimated by soil sterilisation and…
+PETROLE03,"Et puis, il y a eu le Grand Génocide. Les lombrics des champs décimés par la stérilisation des sols et …",And then came the Great Genocide. Field worms were decimated by soil sterilisation and…
 PETROLE04,"Spéciste, il n’y a pas que les lombrics qui ont souffert !","Speciesist, it's not just earthworms who've suffered!"
 PETROLE05,Spéciste !,Speciesist !
 PETROLE06,"S’il vous plaît, ne prêtez pas de mauvaises intentions à Lombric, laissez-le continuer.","For goodness' sake, don't misinterpret Earthworm's words, let him continue."
@@ -64,21 +64,21 @@ PETROLE07,"Lombric, il suffit. Je vous accorde une brève conclusion, puis nous 
 BETON00,"Hum, bien.","Um, fine."
 BETON01,De nombreux sols sont devenus une terre hostile pour nous tous.,Many soils turned into hostile territory for all of us.
 BETON02,Et ça ne s’est pas arrêté là !,And it wasn't over yet!
-BETON03,"Les humains ont commencé à purement et simplement détruire les sols, en répandant dessus ce qu’ils appellent « béton ».","A hundred solar cycles later, humans began to literally destroy the soil, spreading what they call ‘concrete’ over it."
+BETON03,"Les humains ont commencé à purement et simplement détruire les sols, en répandant dessus ce qu’ils appellent « béton ».","A hundred solar cycles later, humans began to literally destroy the soil by spreading what they call ‘concrete’ over it."
 BETON04,Les survivants de leurs produits n’ont eu d’autre choix que l’exil car leur habitat a été systématiquement détruit.,The survivors of their products had no choice but to go into exile because their habitat was methodically destroyed.
-BETON05,"Et, ils ont même poussé le vice jusqu’à confisquer des zones immenses pour leurs boîtes à bouger… Je…",And they even went so far as to confiscate huge areas for their moving-boxes... I...
+BETON05,"Et, ils ont même poussé le vice jusqu’à confisquer des zones immenses pour leurs boîtes à bouger… Je…",And they even went so far as to confiscate huge areas for their moving boxes... I...
 BETON06,"À ce propos, je voudrais remercier nos amis des sols forestiers qui ont accueilli quelques-uns d’entre nous, et…","On that note, I’d like to thank our friends in the forest soils who welcomed some of us, and..."
 BETON07,Comment ça ‘quelques-uns’ ? Nous vous avons accueillis par centaines de milliards !,"What do you mean, ‘some’? We welcomed you by the hundreds of billions!"
 BETON08,On vous accueille et c’est comme ça que vous nous remerciez ?,"We welcome you, and this is your way of saying thank you?"
-BETON09,On ne peut pas accueillir toute la misère du monde !,We can't take in all the misery in the world!
+BETON09,On ne peut pas accueillir toute la misère du monde !,We can't take on all the world’s misery!
 BETON10,Bouh !,Boo!
-BETON11,"Allons, allons, je vous rappelle que c’est une période de célébration et d’unité.","Come on, come on, I remind you that it's a time of celebration and unity."
+BETON11,"Allons, allons, je vous rappelle que c’est une période de célébration et d’unité.","Come on, come on, I remind you that it's a time for celebration and unity."
 BETON12,"Lombric a bientôt fini, n’est-ce pas ? Laissez-le encore nous parler de la Grande Chaleur.","Earthworm is nearly finished, isn't he? Let him have a few more words about the Great Warmth."
 BETON13,"Bon, Lombric veuillez conclure, et de manière apaisante s’il vous plaît.","Right, Earthworm, you may conclude, and in a soothing manner."
 CLIMAT00,"Hum, bien. La Grande Chaleur.","Um, fine. The Great Warmth."
 CLIMAT01,Il y a d’abord eu la petite chaleur causée par les roches noires.,It started with the slight warmth created by the black rocks.
 CLIMAT02,"Et puis, les humains, se rendant probablement enfin un peu compte de leur stupidité ont inventé des machines pour réfléchir à leur place.","And then, these humans, realizing at last how dumb they were, invented machines to think on their behalf."
-CLIMAT03,"Mais, ces machines se sont mises à transformer toute l’énergie restante des roches noires, toute l’énergie des roches luisantes, toute l’énergie des rivières.","But these machines then began to transform all the remaining energy of the black rocks, all the energy of the shiny rocks, all the energy of the rivers."
+CLIMAT03,"Mais, ces machines se sont mises à transformer toute l’énergie restante des roches noires, toute l’énergie des roches luisantes, toute l’énergie des rivières.","But then, these machines began to transform all the remaining energy of the black rocks, all the energy of the shiny rocks, all the energy of the rivers."
 CLIMAT04,"Toute cette énergie, elles l’ont transformée en chaleur.","All that energy, they turned it into heat."
 CLIMAT05,Et tout ça pourquoi ?,And the entire point of this?
 CLIMAT06,Pour faire des dessins. Des dessins qui ne contenaient même plus les belles idées que s’échangeaient les premiers humains.,To draw pictures. Pictures that no longer even captured the beautiful ideas exchanged by the first humans.
@@ -90,7 +90,7 @@ CLIMAT11,Les humains ont décidé d’utiliser tous les restes d’énergie pour
 CLIMAT12,"Le lendemain, ils n’avaient plus de roche noire, plus de roche luisante.","The next day, they had no more black rock, no more shiny rock."
 CLIMAT13,Toutes leurs machines se sont arrêtées.,All their machines went down.
 CLIMAT14,"Le jour d’après, ils ont voulu se battre, mais ils avaient aussi utilisé une bonne partie de l’énergie de leurs armes pour faire du froid.","The next day, they wanted to fight, but they had already used up most of their weapons' energy to cool them down."
-CLIMAT15,"Une semaine après, ils ont commencé à manger leurs chiens et leurs chats. La semaine d’après, ils nous ont même privé de leurs morts,","A week later, they began to eat their dogs, their cats, and another week later, they even deprived us of their corpses,"
+CLIMAT15,"Une semaine après, ils ont commencé à manger leurs chiens et leurs chats. La semaine d’après, ils nous ont même privé de leurs morts,","A week later, they started eating their dogs and their cats. And another week later, they even deprived us of their corpses,"
 CLIMAT16,parce qu’ils ne savaient même plus utiliser les pierres qui coupent pour se nourrir.,because they no longer knew how to gather food using their sharp stones.
 CLIMAT17,"Un mois après, même les plus résistants d’entre eux ont fini par mourir, enfin !","One month later, even the most resilient among them finally died, at last!"
 CLIMAT18,Hourra ! Hourra !,Hooray! Hooray!
@@ -109,7 +109,7 @@ GEOGRAPHIE00,"Cloporte, ","Woodlouse,"
 GEOGRAPHIE01,"Clap, clap.","Clap, clap."
 GEOGRAPHIE02,"Cloporte, à vous la parole.","Woodlouse, over to you."
 GEOGRAPHIE03,"Mais, l’intervention de Lombric ayant légèrement débordé, je vous demande de passer directement au cas des humains.","However, as Earthworm's contribution has gone slightly overboard, could you skip straight to the case of humans?"
-GEOGRAPHIE04,"Faîtes-nous un point complet de la situation. Mais, pensez aux plus jeunes d’entre nous et évitez le jargon technique.",Give us a comprehensive overview of the situation. But think of the youngest among us and avoid technical jargon.
+GEOGRAPHIE04,"Faites-nous un point complet de la situation. Mais, pensez aux plus jeunes d’entre nous et évitez le jargon technique.",Give us a comprehensive overview of the situation. But think of the youngest among us and avoid technical jargon.
 CONTINENTS00,"Jargon ? Mais, Acarien, les mots ont un sens ! Je...","Jargon? But, Mite, words have meaning! I..."
 CONTINENTS01,"Cloporte, s’il vous plaît. Veuillez commencer.","Woodlouse, please. Proceed."
 CONTINENTS02,"Ah oui, commençons.","Alright, let's get started."
@@ -118,22 +118,22 @@ CONTINENTS04,"Cloporte, on a dit de faire simple…","Cloporte, remember to keep
 CONTINENTS05,"Ah oui, simple.","Alright, simple."
 CONTINENTS06,"Tout d’abord, je vous rappelle que nos sols sont répartis sur cinq ensembles majeurs séparés par l’eau salée.","First of all, I’d like to remind you that our soils are spread across five major areas separated by salt water."
 CONTINENTS07,Des milliers d’îles abritent aussi autant de sols uniques.,Thousands of islands are also host to thousands of unique soils.
-CONTINENTS08,"Les humains avaient brisé cet ordre ancestral en nous déportant d’un ensemble à l’autre, mais depuis 300 cycles solaires, nous restaurons petit à petit nos spécificités locales.","Humans had disrupted this ancestral order by deporting us from one area to another, but for the past 300 solar cycles, we have been gradually restoring our local identities."
-CONTINENTS09,"En particulier, les couloirs d’eau infranchissables réservés à leurs monstrueuses machines flottantes, ces couloirs sont sont maintenant pleins de bons sédiments.","Notably, the impassable channels reserved for their monstrous floating machines, these channels are now filled with tasty sediment."
+CONTINENTS08,"Les humains avaient brisé cet ordre ancestral en nous déportant d’un ensemble à l’autre, mais depuis 300 cycles solaires, nous restaurons petit à petit nos spécificités locales.","Humans had disrupted this ancestral order by deporting us from one area to another, but we have been gradually restoring our local identities for the past 300 solar cycles."
+CONTINENTS09,"En particulier, les couloirs d’eau infranchissables réservés à leurs monstrueuses machines flottantes, ces couloirs sont maintenant pleins de bons sédiments.","Notably, the impassable channels reserved for their monstrous floating machines, these channels are now filled with tasty sediment."
 CONTINENTS10,Un autre problème concerne le cinquième ensemble qui est apparu lorsque la croûte de glace a disparu à cause de la Grande Chaleur.,"Another problem relates to the fifth landmass, which emerged when the ice crust disappeared due to the great warmth."
 CONTINENTS11,"Certaines de nos petites amies les bactéries s’y épanouissent. Mais, malgré leurs efforts, les lichens n’ont pas encore réussi à constituer un sol pouvant nous héberger.","Some of our little bacteria friends thrive there. But despite their efforts, lichens have not yet managed to create soil that can support us all."
 CONTINENTS12,Et le débat reste ouvert : faut-il vraiment coloniser ce nouvel ensemble ?,And the question remains: should we really colonise this new area?
-CONTINENTS13,Bien sûr qu’il faut coloniser. Laissez faire les jeunes si vous n’en êtes pas capables !,Of course we must colonise. Let the young people do it if you cannot!
+CONTINENTS13,Bien sûr qu’il faut coloniser. Laissez faire les jeunes si vous n’en êtes pas capables !,Of course we must colonise! Let the young people do it if you cannot!
 CONTINENTS14,Place aux jeunes !,Make way for young ones!
 CONTINENTS15,"Chères espèces, je vous en prie ! En ce beau jour de commémoration, laissons les dissensions de côté.","Dear species, On this beautiful day of commemoration, let’s put our disputes aside."
 CONTINENTS16,"Cloporte, passons directement à la répartition des humains actuels.","Woodlouse, I think you'd better jump straight to the current human distribution."
 CONTINENTS17,"Cloporte, veuillez continuer.","Woodlouse, please continue."
 EROSION00,"Ah oui, merci Acarien.",Alright. Thank you Mite.
-EROSION01,Revenons aux quatre grands ensembles.,Back to the four major landmass.
-EROSION02,"Pour faire pousser leur nourriture, les humains avaient détruit 60 pour cent des sols forestiers.","In order to grow their food, humans had destroyed 60 percent of forest soils."
-EROSION03,"Avant la Grande Extinction, les humains étaient même provoqué l’érosion de plus de 20 pour cent des sols champêtres, causant ce Grand Génocide que nous ne pouvons oublier.","Before the Great Extinction, humans had even caused the erosion of more than 20 per cent of rural soils, causing the Great Genocide we cannot forget."
-EROSION04,Ils semblaient incapables de comprendre l’importance d’avoir des plantes enracinées dedans en permanence…,They seemed unable to understand the importance of having plants rooted in the soil permanently…
-EROSION05,"Et comme il faut 100 à 1000 cycles solaires pour reconstituer un sol correct, une grande partie de la planète est encore un No Worms Land.","And since it takes 100 to 1,000 solar cycles, depending on the region, to restore soil to a healthy state, much of the planet is still a No Worms Land."
+EROSION01,Revenons aux quatre grands ensembles.,Back to the four major landmasses.
+EROSION02,"Pour faire pousser leur nourriture, les humains avaient détruit 60 pour cent des sols forestiers.","In order to grow their food, humans had destroyed 60 per cent of forest soils."
+EROSION03,"Avant la Grande Extinction, les humains avaient même provoqué l’érosion de plus de 20 pour cent des sols champêtres, causant ce Grand Génocide que nous ne pouvons oublier.","Before the Great Extinction, humans had even caused the erosion of more than 20 per cent of rural soils, causing the Great Genocide we cannot forget."
+EROSION04,Ils semblaient incapables de comprendre l’importance d’avoir des plantes enracinées dedans en permanence…,They seemed unable to understand the importance of having plants permanently rooted in the soil…
+EROSION05,"Et comme il faut 100 à 1000 cycles solaires pour reconstituer un sol correct, une grande partie de la planète est encore un No Worms Land.","And since it takes between 100 and 1,000 solar cycles, depending on the region, to restore soil to a healthy state, much of the planet is still a No Worms Land."
 EROSION06,Vengeance !,Revenge!
 EROSION07,Achevons la Grande Extinction !,Let's finish off the Great Extinction!
 REPARTITION00,"S’il vous plaît, retenez votre colère. Cloporte, justement, venons en aux humains actuels.","Please, hold back your anger. Woodlouse, indeed, let's talk about humans today."
@@ -144,33 +144,33 @@ REPARTITION04,On peut diviser les humains restant en deux catégories : les Bê
 REPARTITION05,Les Bêtes d’abord forment une centaine de communautés dispersées sur la planète.,The Beasts currently comprise around a hundred communities scattered across the planet.
 REPARTITION06,Elles semblent avoir renoncé aux machines.,They seem to have given up on machines.
 REPARTITION07,Certains d’entre nous prétendent même que les Bêtes essayent de se faire pardonner.,A few of us even claim that the Beasts are trying to make amends.
-REPARTITION08,"Il va sans dire que ces cloportes ont été, euh, rapatriés.","It is needless to say that these woodlice were, er, repatriated."
+REPARTITION08,"Il va sans dire que ces cloportes ont été, euh, rapatriés.","Needless to say that these woodlice were, er, repatriated."
 REPARTITION09,"Les Horreurs, elles, vivent dans des gigantesques blocs de béton et de métal souterrains.","As for the Horrors, they live in gigantic underground blocks of concrete and metal."
 REPARTITION10,"Heureusement, il ne reste plus que cinq blocs d’Horreurs en activité.","Fortunately, only five blocks of Horrors remain active."
-REPARTITION11,"Et, ils n’ont jamais contenu beaucoup d’humains.",And they never contained many humans.
-REPARTITION12,"D’ailleurs, même avant la Grande Extinction, les Horreurs vivaient dans des grands blocs biens vides à la surface, restant à l’écart des Bêtes.","Besides, even before the Great Extinction, the Horrors lived in large, empty blocks on the surface, staying away from the Beasts."
-REPARTITION13,Nous pensons qu’il reste moins d’une cinquantaine d’Horreurs en vie.,We believe that fewer than fifty Horrors are still alive.
+REPARTITION11,"Et, ils n’ont jamais contenu beaucoup d’humains.",And they never contained many humans anyway.
+REPARTITION12,"D’ailleurs, même avant la Grande Extinction, les Horreurs vivaient dans des grands blocs biens vides à la surface, restant à l’écart des Bêtes.","Besides, even before the Great Extinction, the Horrors lived in large, empty blocks on the surface, keeping away from the Beasts."
+REPARTITION13,Nous pensons qu’il reste moins d’une cinquantaine d’Horreurs en vie.,We estimate that fewer than fifty Horrors are still alive today.
 REPARTITION14,"Cependant, les Horreurs restent notre priorité. Leur pouvoir de nuisance a toujours été bien supérieur à celui des autres humains.","However, the Horrors are still our top priority, as their ability to cause harm has always been vastly superior to that of other humans."
 REPARTITION15,"N’attendons plus, exterminons-les !","No more waiting, let's exterminate them!"
 REPARTITION16,À bas les Horreurs !,Ditch the Horrors!
 REPARTITION17,"Allons, allons, du calme.","Come on, come on, stay calm."
 REPARTITION18,"Cloporte, veuillez conclure avant que les esprits ne s’échauffent trop.","Woodlouse, you should wrap things up before tempers flare too much."
 REPARTITION19,"Cloporte, vous vouliez ensuite nous parler du béton ?","Woodlouse, you were going to talk to us about concrete next, weren't you?"
-GRAVATS00,"Ah oui, de la couverture de béton pour être plus précis.","Alright, the concrete overlay to be more precise."
-GRAVATS01,Les humains ont recouvert quasiment trois pour cent des sols de leur béton.,Humans have covered almost three per cent of the soils with this concrete of them.
+GRAVATS00,"Ah oui, de la couverture de béton pour être plus précis.","Alright, the concrete overlay, to be more precise."
+GRAVATS01,Les humains ont recouvert quasiment trois pour cent des sols de leur béton.,Humans had covered almost three per cent of the soils with this concrete of them.
 GRAVATS02,C’était des espaces dont toute vie non-autorisée par les humains était exclue !,These were spaces from which all life not authorised by humans was banned!
 GRAVATS03,"Nos ancêtres espéraient que les humains finiraient par trop utiliser leurs bombes, et qu’ils détruiraient tout eux-mêmes.",Our ancestors hoped that humans would eventually overuse their bombs and destroy everything themselves.
 GRAVATS04,"Mais non, même pas, ils nous ont laissé tout le travail.","But no, not even that, they left us with all the work."
-GRAVATS05,Nous avions eu un peu d’espoir quand nous avions remarqué que leur béton s’effondrait tout seul après 70 à 100 cycles solaires.,There was a glimmer of hope when we noticed that their concrete crumbled on its own after 70 to 100 solar cycles.
+GRAVATS05,Nous avions eu un peu d’espoir quand nous avions remarqué que leur béton s’effondrait tout seul après 70 à 100 cycles solaires.,There was a glimmer of hope when we noticed that their concrete was crumbling on its own after 70 to 100 solar cycles.
 GRAVATS06,"Mais, nos petites amies les bactéries et leurs compères lichens ne cessent de se plaindre de la difficulté de la tâche pour décomposer ces gravats.",But our little bacteria friends and their lichen buddies keep complaining about how difficult it is to break down the rubble.
-GRAVATS07,"À l’heure actuelle, seuls dix pour cent des zones bétonnées sont en bonne voie de restauration.","To date, only 10 percent of concrete-covered areas can be regarded as being on the road to recovery."
+GRAVATS07,"À l’heure actuelle, seuls dix pour cent des zones bétonnées sont en bonne voie de restauration.","To date, only 10 per cent of concrete-covered areas can be regarded as on the road to recovery."
 GRAVATS08,"Répugnant, absolument répugnant ce qu’ils nous ont fait.","What they did to us is sickening, utterly sickening."
 GRAVATS09,Pas de pitié !,No mercy!
 GRAVATS10,"Patience, patience. Cloporte, veuillez conclure.","Easy, easy. Woodlouse, please conclude."
 CONCLU_GEO00,"Ah oui, la conclusion.","Alright, the conclusion."
 CONCLU_GEO01,Je pense qu’il est clair pour tout le monde que nous avons actuellement deux priorités.,I think it's clear to everyone that we currently have two priorities.
-CONCLU_GEO02,"D’abord, nous débarrasser des Horreurs pour éviter toute nouvelle colonisation de leur part.","First, we must dispose of the Horrors to prevent any further colonisation on their part."
-CONCLU_GEO03,"Ensuite, nous devons finir de nettoyer notre planète et soigner les cicatrices que les humains lui ont infligées.","Next, we must finish cleaning up our planet and healing the wounds that humans inflicted upon it."
+CONCLU_GEO02,"D’abord, nous débarrasser des Horreurs pour éviter toute nouvelle colonisation de leur part.","First, we must dispose of the Horrors to prevent them from colonising further."
+CONCLU_GEO03,"Ensuite, nous devons finir de nettoyer notre planète et soigner les cicatrices que les humains lui ont infligées.","Next, we must finish cleaning up our planet and healing the wounds that humans have inflicted on it."
 CONCLU_GEO04,Clap clap !,Clap clap !
 CONCLU_GEO05,Débarrassons-nous de tous les humains !,Let's get rid of all humans!
 CONCLU_GEO06,Priorité à la décomposition !,Decomposition first!
@@ -178,7 +178,7 @@ CONCLU_GEO07,"Merci pour cette présentation Cloporte. Et maintenant,","Thank yo
 CONCLU_GEO08,La leçon d’histoire de Lombric.,Earthworm's history lesson.
 CONCLU_GEO09,"On connaît tout ça, place aux actes !","We know all that, now it's time for action!"
 ACTIONS00,Nous allons maintenant discuter des actions à planifier pour les dix prochains cycles solaires.,"After this review, we'll move on to planning actions for the next ten solar cycles."
-ACTIONS01,"Je vous rappelle que, comme nos ressources sont limitées, nous allons devoir faire des choix.","I’d like to remind you that, as our resources are limited, we'll have to make choices."
+ACTIONS01,"Je vous rappelle que, comme nos ressources sont limitées, nous allons devoir faire des choix.","I’d like to remind you that, since our resources are limited, we'll have to make choices."
 ACTIONS02,"Au moment du vote, je vous demanderai de ne pas seulement laisser parler l’émotion, mais de faire preuve de discernement.","When casting your ballot, I’d ask you not to let emotion be your only guide, but to exercise discernment."
 ACTIONS03,"Ainsi, nous allons…","So, we're going to..."
 ACTIONS04,"Écouter Tique, spécialiste en maladies.","Listen to Tick, expert in diseases."
@@ -193,13 +193,13 @@ TIQUE04,"Une infection test sur un groupe de Bêtes humaines isolées dans le gr
 TIQUE05,et nous pensons que les autres humains n’en ont pas entendu parler.,and we believe that other humans have not heard about it.
 TIQUE06,"Les rats nous transporteront jusqu’aux cibles. Mais, il va falloir faire un choix.","The rats will carry us to the targets. But, we'll have to make a choice."
 TIQUE07,"Soit attaquer les tribus de Bêtes, soit affronter les Horreurs dans leurs blocs de bétons.",Either attack the Beast tribes or face the Horrors in their concrete blocks.
-TIQUE08,"Attaquer directement les Horreurs mènera à d’immenses pertes, mais les rats sont prêts à ce sacrifice pour la cause.","Attacking the Horrors directly will result in huge losses, but the rats are prepared to make that sacrifice for the cause."
+TIQUE08,"Attaquer directement les Horreurs mènera à d’immenses pertes, mais les rats sont prêts à ce sacrifice pour la cause.","Attacking the Horrors directly would result in huge losses, but the rats are willing to make that sacrifice for the cause."
 TIQUE09,"Cependant, nous savons que, contrairement à la bonne époque, ils peuvent développer des remèdes plus vite que nous des maladies.","However, we know that, unlike in the good old days, they can develop cures faster than we can develop diseases."
-TIQUE10,"Si un bloc d’Horreurs survit, les humains seront peut-être capables de repeupler les autres blocs.","If one block of Horrors survives, humans may be able to recolonize the other blocks."
+TIQUE10,"Si un bloc d’Horreurs survit, les humains seront peut-être capables de repeupler les autres blocs.","If one block of Horrors survives, humans may be able to recolonise the other blocks."
 TIQUE11,"À l’inverse, nous pensons pouvoir coordonner une attaque simultanée sur toutes les tribus de Bêtes.","On the contrary, we believe we can coordinate a simultaneous attack on all the Beast tribes."
 TIQUE12,"Bien sûr, les Horreurs auront tout le temps de développer un remède.","Of course, the Horrors will have plenty of time to develop a cure."
 TIQUE13,"Mais, nous avons remarqué que les Horreurs vont régulièrement capturer de jeunes femelles reproductrices chez les Bêtes.",But we've noticed that the Horrors regularly capture young breeding females from among the Beasts.
-TIQUE14,Nous pouvons faire le pari que les rares femelles Horreurs ne sont plus capables de se reproduire.,We may safely assume that the few female Horrors are no longer fit to reproduce.
+TIQUE14,Nous pouvons faire le pari que les rares femelles Horreurs ne sont plus capables de se reproduire.,We may assume that the few female Horrors are no longer fit to reproduce.
 TIQUE15,"Et alors, sans femelle Bête, les Horreurs disparaîtront.","And so, without a female Beast, the Horrors will disappear."
 TIQUE16,Frappons directement à la source du mal !,Let's strike directly at the source of evil!
 TIQUE17,"Non, éliminons d’abord les faibles !","No, let's eliminate the weaker ones first!"
@@ -216,7 +216,7 @@ ESCARGOT05,Elle est inspirée d’une tactique qu’employaient jadis nos camara
 ESCARGOT06,…,…
 ESCARGOT07,Nos camarades agglutinaient leurs coquilles sur les grilles d’évacuation. Les machines à énergie humaine surchauffaient et cassaient.,"They were clogging up the drainage grates with their shells, and the humans' energy-machines were overheating and breaking down."
 ESCARGOT08,…,…
-ESCARGOT09,"Nous proposons de nous jeter par milliards dans les trous d’air des blocs de béton des Horreurs. De les faire suffoquer, surchauffer. Et de les laisser souffrir.","We propose to throw ourselves by the billions into the air holes of the Horrors' concrete blocks. To suffocate them, overheat them. And let them suffer."
+ESCARGOT09,"Nous proposons de nous jeter par milliards dans les trous d’air des blocs de béton des Horreurs. De les faire suffoquer, surchauffer. Et de les laisser souffrir.",We propose throwing ourselves by the billions into the air holes of the Horrors' concrete blocks. We’ll suffocate and overheat them. And let them suffer.
 ESCARGOT10,…,…
 ESCARGOT11,Ce sera une opération en mémoire de toutes nos frœurs qui sont mort·e·s sous les disques noirs des boîtes à bouger humaines.,This will be an operation in memory of all our brosis who died under the black discs of human moving boxes.
 ESCARGOT12,…,…
@@ -227,26 +227,26 @@ ESCARGOT16,"Effectivement, votre sacrifice pourrait porter un coup fatal aux Hor
 ESCARGOT17,Êtes-vous sûrs d’arriver à boucher les trous sans être remarqués ? Vous pourriez continuer à travailler tranquillement à la restauration des sols.,Are you sure you can fill in the holes without being noticed? You could continue working steadily on restoring the soil.
 FOURMI00,Fourmi a un plan de restauration des sols à nous présenter.,Ant has a soil restoration plan to present to us.
 FOURMI01,En effet.,Correct.
-FOURMI02,"Mais, il requiert votre coopération à tous, j’ai bien dit tous ! En effet, après des générations de croisements, nous avons enfin atteint notre objectif.","However, it requires the cooperation of all of you, and I mean all of you. Indeed, after generations of crossbreeding, we've finally achieved our goal."
+FOURMI02,"Mais, il requiert votre coopération à tous, j’ai bien dit tous ! En effet, après des générations de croisements, nous avons enfin atteint notre objectif.","However, it requires the cooperation of everyone, and I mean everyone. Indeed, after generations of crossbreeding, we've finally achieved our goal."
 FOURMI03,"En effet, nous avons créé une nouvelle variété, non, c’est carrément une nouvelle espèce,","Indeed, we've created a new variety. No, it’s quite simply a new species,"
 FOURMI04,nous avons créé une nouvelle espèce de champignons capables de secréter une substance à double propriété : acide contre le béton et oxydante contre les tiges de métal.,we’ve created a new species of fungus capable of secreting a substance with dual properties: acidic against concrete and oxidising against metal rods.
-FOURMI05,"Mais, il y a toujours un ‘mais’.",But there is always a “but”.
+FOURMI05,"Mais, il y a toujours un ‘mais’.",But there’s always a “but”.
 FOURMI06,"Il y en a même deux, des ‘mais’.","Actually, there are two “buts”."
-FOURMI07,"En effet, nos champignons ont besoin d’énormément de ressources pour leur activité. Nous vous demanderons donc de réorienter une grande partie des flux de nourriture en notre faveur.","Indeed, our fungi require enormous resources for their activity, so we'll ask you to redirect a large part of the food flow in our favour."
+FOURMI07,"En effet, nos champignons ont besoin d’énormément de ressources pour leur activité. Nous vous demanderons donc de réorienter une grande partie des flux de nourriture en notre faveur.","Indeed, our fungi require enormous resources for their activity, so we'll ask you to redirect a large part of the food supply to us."
 FOURMI08,"En effet, c’est un gros effort que nous vous demandons, mais nous avons déjà su prouver l’efficacité de notre organisation.","Indeed, we're asking a great deal of you, but we've already proven how efficient our organisation is."
 FOURMI09,"Et cette situation sera provisoire, bien sûr.","And this situation will be temporary, of course."
 FOURMI10,Menteurs !,Liars!
 FOURMI11,"Deuxième ‘mais’. Nos champignons étant particulièrement toxiques, nous demanderons à toutes les espèces travaillant sur les blocs de béton d’aller vivre ailleurs pendant la durée des opérations.","Second ‘but’: as our mushrooms are particularly toxic, we’ll ask all species working on the concrete blocks to go and live elsewhere for the duration of the operations."
 FOURMI12,"Provisoirement, bien sûr.","Temporarily, of course."
 FOURMI13,Despotes !,Tyrants!
-FOURMI14,"Mais, en effet, nous prévoyons de dégrader 80 pour cent des gravats durant les dix prochains cycles solaires.","But, indeed, we plan to degrade 80 per cent of the rubble over the next 10 solar cycles."
+FOURMI14,"Mais, en effet, nous prévoyons de dégrader 80 pour cent des gravats durant les dix prochains cycles solaires.","But, indeed, we plan to degrade 80 per cent of the rubble over the next ten solar cycles."
 FOURMI15,"Comme toujours, vous souhaitez employer les grands moyens.","As always, you want to pull out all the stops."
 FOURMI16,"Aux grands maux, les grands remèdes, Fourmi, nous vous confions notre avenir.","Desperate times call for desperate measures, Ant. We entrust our future to you."
 FOURMI17,"C’est les pleins pouvoirs que vous demandez, Fourmi ! L’Assemblée des Décomposeurs ne peut accepter cela. Continuez plutôt à vous occuper des forêts.","You're asking for full powers, Ant! The Assembly of Decomposers can't accept that. Just keep looking after the forests instead."
 VOTE00,"Acarien, vous êtes vraiment écouté et respecté par toutes les espèces.","Mite, you are truly listened to and respected by all species."
 VOTE01,Vos commentaires ont semble-t-il pesé sur le vote final de l’Assemblée.,Your comments appear to have influenced the final vote of the decomposers.
 VOTE02,Allez donc annoncer le résultat vous-même.,Go and tell them the result yourself.
-VOTE03,"Chères espèces, à l’issue de l’Assemblée des Décomposeurs, et après avoir été dument informés, vous avez choisi les orientations pour les dix prochains cycles solaires.","Dear species, following the Decomposers' Assembly, and after being duly informed, you have chosen the guidelines for the next ten solar cycles."
+VOTE03,"Chères espèces, à l’issue de l’Assemblée des Décomposeurs, et après avoir été dument informés, vous avez choisi les orientations pour les dix prochains cycles solaires.","Dear species, following the Assembly of Decomposers, and having been duly informed, you have chosen the guidelines for the next ten solar cycles."
 VOTE04,À savoir :,Specifically:
 VOTE05,"Infester les Horreurs et bloquer leurs trous d’air, tout en laissant les fourmis se débarrasser de tous les restes de béton.","Infect the Horrors and block their air holes, while letting the ants get rid of all the concrete debris."
 VOTE06,"Infecter les Horreurs et bloquer leurs trous d’air, tout en demandant aux fourmis de rester à leur place, dans la forêt.","Infect the Horrors and block their air holes, while instructing the ants to stay put in the forest."
@@ -259,7 +259,7 @@ VOTE12,"Infecter les Bêtes, concentrer les escargots sur les restes de béton e
 VOTE13,Revoir les actions possibles.,Reconsider available actions.
 FIN_COMMUN00,"Mes chères espèces, voilà 310 cycles solaires que la Grande Extinction s’est produite.","My dear species, the Great Extinction occurred 310 solar cycles ago."
 FIN_COMMUN01,"Lors de notre grande commémoration des 300 cycles, l’Assemblée des Décomposeurs avait pris de grandes décisions.","During our celebration of the 300 cycles, the Assembly of Decomposers made several important decisions."
-FIN_COMMUN02,Dressons-en un petit bilan.,Let's look at the results.
+FIN_COMMUN02,Dressons-en un petit bilan.,Let's take look at the outcomes.
 FIN_COMMUN03,"Mais avant de commencer les discussions, il est temps de laisser ma place.","But before we begin proceedings, it’s time for me to step down."
 FIN_COMMUN04,Nous allons passer à l’élection du nouveau modérateur.,We will now elect the new moderator for this Assembly.
 FIN_COMMUN05,"Clap, clap !","Clap, clap!"
