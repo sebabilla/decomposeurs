@@ -125,7 +125,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
 theme_override_colors/font_color = Color(0.99215686, 0.9372549, 0.9490196, 1)
-text = "Scénario,  dessins: Seb46 (CC by-NC)
+text = "Scénario,  dessins: Seb46 (CC BY)
 Code: Seb46 (MIT)
 Jam Velox Turbo 3, thème: The world
   is ending but I still have a job
